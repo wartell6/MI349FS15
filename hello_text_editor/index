@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Favorite Text Editor</title>
+  </head>
+  <body>
+    <h1> My Favorite Text Editor!</h1>
+    <h2> Hello Atom! </h2>
+    <img src="testpic1.png" alt="" />
+
+  </body>
+</html>
