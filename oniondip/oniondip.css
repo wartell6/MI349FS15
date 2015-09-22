@@ -1,15 +1,21 @@
 body{
   background: #ccc;
+  margin: 0;
+  font-family: Helvetica;
 }
 
 .container {
   margin: 0 auto;
   width: 700px;
-  background: #fff;
+  background: #fff url('new.png') no-repeat top center;
+  padding-top: 200px;
+  border-top: 10px solid #424242;
 
 }
 
 article {
-  padding: 20px;
+  padding: 20px 40px;
+  background: #fff;
   
+
 }
