@@ -5,7 +5,7 @@ font-family: Helvetica;
 }
 
 h1 {
-  font-size: 200%;
+  font-size: 250%;
 }
 h3 {
   text-align: center;
@@ -26,13 +26,15 @@ h1, h2 {
 
 .elevator{
   margin: 0 auto;
-  padding-top: 326px;
+  padding-top: 310px;
 
 }
 
 .long{
-  padding-top: 10px;
+  padding-top: 3px;
   text-align: center;
+  background-color: #E0E0E0;
+  padding-bottom: 3px;
 
 }
 
@@ -54,9 +56,9 @@ h1, h2 {
 }
 
 ul li {
-  display: inline;
+  display: inline-block;
+  text-align: center;
   word-spacing: normal;
-
 }
 
 .comps{
