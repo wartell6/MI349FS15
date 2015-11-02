@@ -1,0 +1,54 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #666;
+}
+
+
+#pagewrap {
+	padding: 5px;
+	width: 960px;
+	margin: 20px auto;
+}
+header {
+	height: 100px;
+	padding: 0 15px;
+}
+#content {
+	width: 290px;
+	float: left;
+	padding: 5px 15px;
+}
+
+#middle {
+	width: 294px;
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#sidebar {
+	width: 270px;
+	padding: 5px 15px;
+	float: left;
+}
+footer {
+	clear: both;
+	padding: 0 15px;
+}
+
+@media only screen and (min-width: 400px) {
+  .col-m-1 {width: 75%;}
+
+}
+
+@media only screen and (min-width: 800px) {
+  .col-m-1 {width: 37.5%;}
+      .col-m-2 {width: 37.5%;}
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .col-m-1 {width: 25;}
+    .col-m-2 {width: 2%;}
+    .col-m-3 {width: 25%;}
+}
