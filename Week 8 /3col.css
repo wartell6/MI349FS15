@@ -36,19 +36,88 @@ footer {
 	padding: 0 15px;
 }
 
-@media only screen and (min-width: 400px) {
-  .col-m-1 {width: 75%;}
+@media screen and (max-width: 980px) {
 
+	#pagewrap {
+		width: 94%;
+	}
+	#content {
+		width: 41%;
+		padding: 1% 4%;
+	}
+	#middle {
+		width: 41%;
+		padding: 1% 4%;
+		margin: 0px 0px 5px 5px;
+		float: right;
+	}
+
+	#sidebar {
+		clear: both;
+		padding: 1% 4%;
+		width: auto;
+		float: none;
+	}
+
+	header, footer {
+		padding: 1% 4%;
+	}
 }
 
-@media only screen and (min-width: 800px) {
-  .col-m-1 {width: 37.5%;}
-      .col-m-2 {width: 37.5%;}
+@media screen and (max-width: 400px) {
+
+	#content {
+		width: auto;
+		float: none;
+	}
+
+	#middle {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+	}
+
+	#sidebar {
+		width: auto;
+		float: none;
+	}
 
 }
+@media screen and (max-width: 800px) {
 
-@media only screen and (min-width: 1200px) {
-  .col-m-1 {width: 25;}
-    .col-m-2 {width: 2%;}
-    .col-m-3 {width: 25%;}
+	#content {
+		width: auto;
+		float: none;
+	}
+
+	#middle {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+	}
+
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+
+}
+@media screen and (max-width: 1200px) {
+
+	#content {
+		width: auto;
+		float: none;
+	}
+
+	#middle {
+		width: auto;
+		float: none;
+		margin-left: 0px;
+	}
+
+	#sidebar {
+		width: auto;
+		float: none;
+	}
+
 }
