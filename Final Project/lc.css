@@ -1,0 +1,104 @@
+*{
+   margin:0;
+   padding:0;
+}
+
+#wrapper{
+   width:960px;
+   margin:0 auto;
+}
+
+.container {
+background-color: #ccc;
+margin: 0 auto;
+width: 960px;
+padding-top: 10px;
+
+overflow: hidden;
+}
+
+body{
+  background-color:#fff;
+  text-align: center;
+
+}
+
+
+h1 {
+  color: white;
+  text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+li {
+    float: left;
+}
+
+a {
+    display: block;
+    width: 175px;
+    text-decoration: none;
+    background-color: #214700;
+    color: #fff;
+    padding: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#content {
+	width: 290px;
+	float: left;
+	padding: 5px 15px;
+}
+
+#middle {
+	width: 294px;
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#sidebar {
+	width: 270px;
+	padding: 5px 15px;
+	float: left;
+#content {
+	width: 290px;
+	float: left;
+	padding: 5px 15px;
+}
+
+#middle {
+	width: 294px;
+	float: left;
+	padding: 5px 15px;
+	margin: 0px 5px 5px 5px;
+}
+
+#sidebar {
+	width: 270px;
+	padding: 5px 15px;
+	float: left;
+}
+
+.3col{
+  background-color: 636363;
+  color: white:
+}
+
+.coaches {
+  list-style-type: none;
+}
+
+.coaches li {
+  display: block;
+}
