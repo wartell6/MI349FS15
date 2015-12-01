@@ -102,3 +102,7 @@ a {
 .coaches li {
   display: block;
 }
+
+div.link li {
+  background-color: #ccc;
+}
